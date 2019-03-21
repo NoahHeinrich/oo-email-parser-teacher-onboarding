@@ -10,6 +10,6 @@ class EmailParser
   
   def parse
     parsed = self.emails.split(", ")
-    parsed = parsed.map { |string| string.split(" ")
+    parsed = parsed.map { |string| string.split(" ") }
   end
 end
